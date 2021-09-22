@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    private let contact = Contact.getContactList()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List(contact) { contact in
+                NavigationLink(
+                    destination: DetailsView(contact: contact),
+                    label: {
+                        Text("\(contact.fullName)")
+                    })
+                }
+            .navigationTitle("Contact List")
+        }
     }
 }
 

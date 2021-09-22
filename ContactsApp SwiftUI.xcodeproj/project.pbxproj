@@ -11,6 +11,9 @@
 		FA8D1B3E26FB91BF00B14446 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D1B3D26FB91BF00B14446 /* ContentView.swift */; };
 		FA8D1B4026FB91D500B14446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8D1B3F26FB91D500B14446 /* Assets.xcassets */; };
 		FA8D1B4326FB91D500B14446 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8D1B4226FB91D500B14446 /* Preview Assets.xcassets */; };
+		FA8D1B4B26FB92A400B14446 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D1B4A26FB92A400B14446 /* Contact.swift */; };
+		FA8D1B4D26FB953000B14446 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D1B4C26FB953000B14446 /* DataManager.swift */; };
+		FA8D1B5126FB9ACC00B14446 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8D1B5026FB9ACC00B14446 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		FA8D1B3F26FB91D500B14446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8D1B4226FB91D500B14446 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA8D1B4426FB91D500B14446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8D1B4A26FB92A400B14446 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		FA8D1B4C26FB953000B14446 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FA8D1B5026FB9ACC00B14446 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				FA8D1B3B26FB91BF00B14446 /* ContactsApp_SwiftUIApp.swift */,
 				FA8D1B3D26FB91BF00B14446 /* ContentView.swift */,
+				FA8D1B4A26FB92A400B14446 /* Contact.swift */,
+				FA8D1B5026FB9ACC00B14446 /* DetailsView.swift */,
+				FA8D1B4C26FB953000B14446 /* DataManager.swift */,
 				FA8D1B3F26FB91D500B14446 /* Assets.xcassets */,
 				FA8D1B4426FB91D500B14446 /* Info.plist */,
 				FA8D1B4126FB91D500B14446 /* Preview Content */,
@@ -138,6 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8D1B4B26FB92A400B14446 /* Contact.swift in Sources */,
+				FA8D1B5126FB9ACC00B14446 /* DetailsView.swift in Sources */,
+				FA8D1B4D26FB953000B14446 /* DataManager.swift in Sources */,
 				FA8D1B3E26FB91BF00B14446 /* ContentView.swift in Sources */,
 				FA8D1B3C26FB91BF00B14446 /* ContactsApp_SwiftUIApp.swift in Sources */,
 			);
