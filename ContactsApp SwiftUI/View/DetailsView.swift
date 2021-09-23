@@ -8,18 +8,18 @@
 import SwiftUI
 
 struct DetailsView: View {
-    let contact: Contact
+    var contact: Contact
     
     var body: some View {
         Text("\(contact.fullName)")
             .font(.title)
             .fontWeight(.bold)
+            .shadow(radius: 3)
         
         VStack {
-            Image(systemName: "person")
+            Image(systemName: "person.fill")
                 .resizable()
                 .frame(width: 100, height: 100)
-                .shadow(radius: 3)
                 .padding()
             
             HStack {
@@ -30,7 +30,7 @@ struct DetailsView: View {
             .padding()
             
             HStack {
-                Image(systemName: "bolt")
+                Image(systemName: "envelope.open")
                     .foregroundColor(.blue)
                 Text("\(contact.email)")
             }
