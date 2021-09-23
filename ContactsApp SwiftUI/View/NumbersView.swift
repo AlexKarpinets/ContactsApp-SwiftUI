@@ -28,6 +28,11 @@ struct NumbersView: View {
                                 .foregroundColor(.blue)
                             Text("\(contact.phoneNumber)")
                         }
+//                        HStack {
+//                            Image(systemName: "phone")
+//                                .foregroundColor(.blue)
+//                            Text("\(contact.phoneNumber)")
+//                        }
                     }
                 }.frame(width: 200, height: 150, alignment: .center)
             }
@@ -40,5 +45,3 @@ struct Numbers_Previews: PreviewProvider {
         NumbersView(contact: Contact.getContactList())
     }
 }
-///
-//ёёё
