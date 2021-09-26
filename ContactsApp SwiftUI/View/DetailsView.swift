@@ -8,33 +8,30 @@
 import SwiftUI
 
 struct DetailsView: View {
-    var contact: Contact
+    let contact: Contact
     
     var body: some View {
-        Text("\(contact.fullName)")
-            .font(.title)
-            .fontWeight(.bold)
-            .shadow(radius: 3)
-        
-        VStack {
-            Image(systemName: "person.fill")
-                .resizable()
-                .frame(width: 100, height: 100)
-                .padding()
+        List {
+            HStack {
+                Spacer()
+                Image(systemName: "person.fill")
+                    .resizable()
+                    .frame(width: 100, height: 100)
+               Spacer()
+            }
             
             HStack {
                 Image(systemName: "phone")
                     .foregroundColor(.blue)
                 Text("\(contact.phoneNumber)")
             }
-            .padding()
-            
+
             HStack {
                 Image(systemName: "envelope.open")
                     .foregroundColor(.blue)
                 Text("\(contact.email)")
             }
-        }
+        } .navigationTitle(contact.fullName)
         Spacer()
     }
 }

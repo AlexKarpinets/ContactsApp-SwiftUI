@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 class DataManager {
 
     static let shared = DataManager()
@@ -37,21 +35,4 @@ class DataManager {
         "432349845", "459477625"
     ]
     private init() {}
-}
-
-
-struct ModelOne {
-    let dataManager = DataManager.shared
-    
-    func doSomething() {
-        dataManager.names = []
-    }
-}
-
-struct ModelTwo {
-    let dataManager = DataManager.shared
-    
-    func doSomething() {
-        let names = dataManager.names
-    }
 }

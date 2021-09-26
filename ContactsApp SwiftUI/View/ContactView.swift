@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContactView: View {
-    private var contact = Contact.getContactList()
+    private let contact = Contact.getContactList()
     
     var body: some View {
         
